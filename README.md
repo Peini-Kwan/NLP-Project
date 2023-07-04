@@ -19,6 +19,11 @@ The sentiment distribution and topic clusters are visualized through intuitive h
 Based on the analysis, we could conclude that reviews of a product play a huge role in influencing customers' purchase decision and business owners' business decision.
 - Positive reviews assist in customer acquisition and conversion while developong brand advocacy and products/services validation.
 - On the other hand, negative reviews help the business owners to identify pain points of why the business is going downhill and to work on quality improvement in order to foster customer retention and for customer service enhancement.
+## Method Used
+- Webscraping - Selenium
+- Sentiment Analysis - Vader & RoBERTa
+- Topic Modelling - Latent Semantic Snalysis(LSA), Latent Dirichlet Allocation (LDA) & BERTopic
+- Deployment - Streamlit
 ## Streamlit
 A Streamlit app is created to test the reviews.
 
