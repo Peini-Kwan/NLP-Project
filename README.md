@@ -8,16 +8,17 @@ For sentiment analysis, a pre-trained sentiment analysis model is utilized based
 
 For topic modeling, the Latent Dirichlet Allocation (LDA) algorithm, a popular technique for discovering latent topics in a collection of documents is employed. The LDA model was trained on the preprocessed customer review data, allowing us to identify the main topics discussed by customers in their reviews.
 ## Results and Interpretation
-Our analysis revealed several interesting findings:
+The analysis revealed several interesting findings:
 
-- Overall, customer sentiment towards The North Face products on Amazon was predominantly positive, with a majority of reviews expressing satisfaction and appreciation.
+- Surprisingly, it is observed that for some of the products, they received negative reviews although having high ratings, these products have high ratings but low compound scores. This might due to the reason that some of the reviewers want their comments to be at the top of the comments section, so that it is more noticeable, assuming that the reviews are ranked based on the ratings obtained. 
 - The main topics discussed by customers included product quality and pricing which are the crucial aspects for a customer to make purchase decision.
 - Sentiment analysis helped identify specific aspects of the products or services that received positive or negative feedback, providing insights into areas of improvement or customer satisfaction.
   
-We visualized the sentiment distribution and topic clusters through intuitive charts and word clouds, which are included in the project repository.
+The sentiment distribution and topic clusters are visualized through intuitive histogram, scatter plot and heatmap, which are included in the project repository.
+## Business Application
+Based on the analysis, we could conclude that reviews of a product play a huge role in influencing customers' purchase decision and business owners' business decision.
+- Positive reviews assist in customer acquisition and conversion while developong brand advocacy and products/services validation.
+- On the other hand, negative reviews help the business owners to identify pain points of why the business is going downhill and to work on quality improvement in order to foster customer retention and for customer service enhancement.
 ## Streamlit
 A Streamlit app is created to test the reviews.
 [Streamlit](https://www.streamlit.io/)
-
-
-
